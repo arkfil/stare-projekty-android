@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/trescText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="Wprowadz tekst"
+        android:inputType="textMultiLine"
+        android:text=""
+        android:textAlignment="viewStart" />
+
+    <Button
+        android:id="@+id/zapisz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="zapiszPlik"
+        android:text="Zapisz do pliku" />
+
+    <Button
+        android:id="@+id/odczytaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="odczytajPlik"
+        android:text="Odczytaj z pliku" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="wyczysc"
+        android:text="Wyczysc" />
+</LinearLayout>

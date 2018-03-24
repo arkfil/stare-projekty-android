@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="24dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/imie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/imie"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nazwisko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nazwisko"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="zapisz"
+        android:text="@string/zapisz" />
+</LinearLayout>

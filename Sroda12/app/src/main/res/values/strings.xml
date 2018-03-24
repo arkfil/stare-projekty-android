@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sroda12</string>
+    <string name="ustawienia">Ustawienia</string>
+    <string name="title_activity_preference">Preference</string>
+
+        <string name="main_preferences">Ustawienia główne</string>
+        <string name="pref_opis">Opis</string>
+        <string name="pref_opis_summ">Wyświetl pierwszą linijkę notatki</string>
+        <string name="pref_fontSize">Rozmiar czcionki</string>
+        <string name="pref_fontSize_summ">Wybierz rozmiar czcionki</string>
+        <string name="title_activity_settings">Ustawienia</string>
+    <string name="pref_wakacje">czy wakacje?</string>
+    <string name="pref_wakacje_summ">wakacje tak lub nie</string>
+</resources>

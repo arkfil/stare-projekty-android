@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/main_preferences" >
+        <ListPreference
+            android:key="pref_fontSize"
+            android:title="@string/pref_fontSize"
+            android:summary="@string/pref_fontSize_summ"
+            android:dialogTitle="@string/pref_fontSize"
+            android:entries="@array/pref_fontSize_entries"
+            android:entryValues="@array/pref_fontSize_values"
+            android:defaultValue="12" />
+        <CheckBoxPreference
+            android:key="pref_opis"
+            android:title="@string/pref_opis"
+            android:summary="@string/pref_opis_summ"
+            android:defaultValue="true" />
+        <ListPreference
+            android:key="pref_wakacje"
+            android:title="@string/pref_wakacje"
+            android:summary="@string/pref_wakacje_summ"
+            android:defaultValue="true" />
+        />
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SrodaPreferencje</string>
+    <string name="imie">Imię</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="zapisz">Zapisz</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pierwszy program</string>
+    <string name="title_activity_notatka">activity_notatka</string>
+    <string name="to">Odbiorca</string>
+    <string name="subject">Tytul</string>
+    <string name="message">Tresc notatki</string>
+    <string name="send">wyslij</string>
+</resources>

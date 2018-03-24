@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ustaw nowe haslo:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/noweHasloEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Wpisz haslo"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/noweHasloEdit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Wpisz haslo ponownie"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/zastosujBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ustawHaslo"
+        android:text="Zastosuj" />
+
+</LinearLayout>

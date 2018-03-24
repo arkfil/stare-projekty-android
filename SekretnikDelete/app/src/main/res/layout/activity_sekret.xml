@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/sekretText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:elevation="1dp"
+        android:ems="10"
+        android:text=""
+        android:hint="Miejsce na twoj sekret"
+        android:inputType="textMultiLine"
+        android:textAlignment="viewStart" />
+
+    <Button
+        android:id="@+id/zastosujSekretBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="zapiszSekret"
+        android:text="Zastosuj" />
+</LinearLayout>

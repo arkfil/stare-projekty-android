@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/poprzednieHaslo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Podaj stare haslo"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/doZmHaslaText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Podaj nowe haslo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/doZmHaslaText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Powtorz nowe haslo"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/zmianaHaslaBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ustawHaslo"
+        android:text="Zastosuj" />
+</LinearLayout>
